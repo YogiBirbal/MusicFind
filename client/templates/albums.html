@@ -1,0 +1,15 @@
+<template name="albums">
+	{{#each albums}}
+		<div class="well">
+			<div class="row">
+				<div class="col-ms-9">
+					<h4>{{name}}</h4>
+				</div>
+				<div class="col-xs-3">
+					<a class="btn btn-default" href="{{external_urls.spotify}}" target="_blank">View</a>
+					
+				</div>
+			</div>
+		</div>
+	{{/each}}
+</template>
